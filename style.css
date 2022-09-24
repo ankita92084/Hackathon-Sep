@@ -1,0 +1,96 @@
+*{
+    margin: 80;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Jost',sans-serif;
+    background-image: url("/image/background.jpg");
+
+
+
+}
+.main_div{
+    background-image: url("/image/background.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    display:grid;
+    place-items: center;
+    background-color: black;
+}
+.music_container{
+    width: 50rem;
+    height: 70rem;
+    background-color: skyblue;
+    border-radius: 5rem;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0);
+    padding: 5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.music_container #title{
+    text-transform: uppercase;
+    letter-spacing: 01.2rem;
+    word-spacing: 00.5rem;
+    color:darkblue;
+    margin: 2rem 0 0.5rem 0;
+    font-size: 4rem;
+    font-weight: 500;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0);
+}
+.music_container #artist{
+    color: gray;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.img_container{
+    width: 25rem;
+    height: 25rem;
+    margin: auto;
+}
+
+img{
+    width: 80%;
+    height: 120%;
+    border-radius: 100%;
+    object-fit: cover;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.4);
+}
+
+.music_controls{
+    width: 25rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 2rem;
+}
+.music_controls .main_button{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 40%;
+    background-color: darkblue;
+    color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.music_controls .fas:hover{
+    color: cyan
+}
+.music_controls .fa-play:hover{
+    background-color: cyan;
+    color: #111;
+    box-shadow: 0 5rem 2rem 0.2 black;
+}
